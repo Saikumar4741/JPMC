@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 id="title">Welcome to E-commerce</h1>
+    <div id="buttons">
+        <header>
+    <a href="./index.html">Home</a>
+    <a href="newproducts.html">Prodcuts</a>
+    <a href="contact.html">About us</a>
+    <a href="cart.html">
+        <img id="img" src="cart.png" alt=""/>
+    </a>
+        </header>
+    </div>
+
+    <div class="pro">
+    <img src="image1.jfif" id="image1">
+    <h2>New Prodcuts</h2>
+</div>
+    <br><br>
+
+    <div class="products">
+        <div class="product">
+        <h3>Product1</h3>
+        <img src="product1.jfif" alt="">
+        <button type="submit">Buy</button>
+        <button type="submit" onclick="addData('1','product1','100')">Add to Cart</button>
+        <p>$100</p>
+    </div>
+
+    <div class="product">
+            <h3>product2</h3>
+            <img src="product2.jfif" alt="">
+            <button type="submit">Buy</button>
+            <button type="submit" onclick="addData('2','product2','200')">Add to Cart</button>
+            <p>$200</p>
+    </div>
+
+        <div class="product">
+            <h3>Product3</h3>
+            <img src="product3.jfif" alt="">
+            <button type="submit">Buy</button>
+            <button type="submit" onclick="addData('3','product3','300')">Add to Cart</button>
+            <p>$300</p>
+        </div>
+    </div>
+     <h3>Click Add to cart to buy</h3>
+</body>
+</html>

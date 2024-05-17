@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "name": "product2",
+      "price": "200"
+    },
+    {
+      "id": "2",
+      "name": "product2",
+      "price": "200"
+    },
+    {
+      "id": "1",
+      "name": "product1",
+      "price": "100"
+    },
+    {
+      "id": "2",
+      "name": "product2",
+      "price": "200"
+    }
+  ]
+}

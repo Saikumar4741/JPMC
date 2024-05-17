@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.pro{
+    text-align: center;
+}
+/* Header styles */
+#title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Product styles */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#img
+{
+    width: 50px;
+}
+.product {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.products :hover {
+    filter: grayscale(0%);
+}
+.product h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.product button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #555;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: blue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table td {
+    text-align: center;
+}
+
+#tp {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}

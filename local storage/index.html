@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function insert()
+        {
+        let m=document.getElementById("one").value;
+        localStorage.setItem("username",m);
+        // retreive();
+        }
+        function delet()
+        {
+            localStorage.clear()
+            retreive()
+        }
+        function retreive()
+        {
+           var u=localStorage.getItem("username")
+           document.getElementById("two").textContent=u;
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome to local storage</h1>
+    <input type="text" id="one">
+    <button onclick="insert()">Insert</button>
+    <button onclick="delet()">Delete</button>
+    <button onclick="retreive()">Get</button>
+    <p id="two"></p>
+</body>
+</html>
